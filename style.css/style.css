@@ -1,0 +1,21 @@
+.div1{
+    border: 1px solid black;
+    height: 500px;
+    width: 600px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(green, yellow);
+    flex-direction: column;
+    
+}
+.div2{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.div1:hover{
+    flex-direction: row;
+}
